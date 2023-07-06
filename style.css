@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 22px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+    max-width:1400px;
+    box-shadow: 0px 0px 44px 6px rgba(0,0,0,0.05);
+}
+
+.card{
+    padding: 5%;
+    margin: 1em;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.left{
+    margin-left:-4.8em;
+    width: 35%;
+}
+
+.left h1{
+    font-size: 35px;
+    line-height: 1em;
+    font-weight: 790;
+    color: hsl(300, 61%, 24%);
+    margin-bottom: 0.4em;
+}
+
+.left p{
+    line-height: 1.5em;
+    font-size: 12px;
+    font-weight: 400;
+ color: hsl(300, 46%, 37%);
+}
+
+.right{
+    margin-right: -5em;
+    width: 50%;
+    align-self: center;
+}
+
+.bar_1 , .bar_2, .bar_3{
+    color: hsl(300, 61%, 29%);
+    font-weight: 700;
+}
+
+.Reviews, .Report_Guru, .Best_Tech{
+    justify-content:space-evenly;
+    display: flex;
+    margin-bottom:0.9em;
+    padding:10px 2px;
+    background-color: hsl(300, 10%, 94%);
+    border-radius: 0.3em;
+}
+
+#star{
+    justify-content: ;
+    height: 12px;
+    justify-content: start;
+}
+
+.image{
+    justify-content: start;
+}
+
+
+.Reviews{
+    margin-left: 0em;
+    margin-right: 5em;
+}
+
+.Report_Guru{
+    margin-left: 4em;
+    margin-right: 2.5em;
+}
+
+.Best_Tech{
+    margin-left: 6em;
+}
+
+.bottom{
+    display: flex;
+}
+
+.colton , .irene  , .anne{
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+    border: none;
+    margin-right: 0.72em;
+    padding: 1.2em;
+    border-radius: 3%;
+    width: 300px;
+}
+
+.text{
+    font-weight: 500;
+}
+
+
+ .profile{
+    align-items: center;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+
+#dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.purple_text{
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+#para{
+    font-weight: 400;
+}
+
+.colton{
+    margin-bottom: 2em;
+}
+
+.irene{
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
+.anne{
+    margin-top:2.4em;
+}
+
+@media screen and (max-width: 850px) {
+
+    .top{
+        flex-direction: column;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    .left{
+        margin-left:0em;
+        width:100%;
+        text-align: center;
+    }
+    
+    .left h1{
+        margin-bottom: 0.6em;
+    }
+    
+    .left p{
+        line-height: 1.5em;
+        font-size: 12px;
+        font-weight: 400;
+     color: hsl(300, 46%, 37%);
+     margin-bottom: 2em;
+    }
+    
+    .right{
+        margin-right: 0em;
+        align-self: center;
+        width: 100%;
+    }
+
+    
+    .Reviews, .Report_Guru, .Best_Tech{
+        border: none;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .bottom{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+    .colton , .irene  , .anne{
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+        margin-right: 0em;
+        padding: 1.2em;
+    }
+}
